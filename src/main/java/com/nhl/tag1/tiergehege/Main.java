@@ -2,6 +2,7 @@ package com.nhl.tag1.tiergehege;
 
 public class Main {
     public static void main(String[] args) {
+
         Gruppe alle = new Gruppe("Alle Tiere im Gehege",
             new Gruppe("Elefanten aus Afrika",
                 new Elefant("Else"),

@@ -62,6 +62,8 @@ public class Tier implements Sozialisiert {
             if (stunden > 0) {
                 this.energiebedarf -= stunden;
                 this.sage("z".repeat(stunden));
+            } else {
+                this.sage("Es ist schon morgen");
             }
         }
     }
